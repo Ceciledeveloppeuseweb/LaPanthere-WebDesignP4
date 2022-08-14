@@ -17,6 +17,11 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+.lien-nav:active{
+    color: red;
+    background-color: #333333;
+    font-size: 20px;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
