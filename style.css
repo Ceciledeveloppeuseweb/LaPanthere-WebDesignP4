@@ -32,6 +32,14 @@ ul li{
     
     
 }
+textarea{
+    
+    margin-bottom: 10px;
+}
+#name, #email{
+    margin-bottom: 10px;
+}
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -102,7 +110,7 @@ ul li{
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
@@ -652,8 +660,13 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 600;
+    color: black!important;
+}
+blockquote, figcaption{
+    color: #C35532;
+    font-weight: 500;
+
 }
 
 .container {
@@ -738,7 +751,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
+    font-weight: 500;
 }
 
 .portfolio-thumb {
@@ -765,7 +779,7 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #c27956;
 }
 
 .bgc-dark-slate-blue {
@@ -773,15 +787,18 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #C35532;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    font-weight: 600;
+    color: #FFF!important;
+   
+    
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #C35532;
     color: #FFFFFF!important;
 }
 
